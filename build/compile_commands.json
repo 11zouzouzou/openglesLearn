@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/mac/Downloads/git/openglesLearn/openglesLearn/build",
+  "command": "/usr/bin/clang -I../include -I/usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/HelloGL.dir/glad.c.o -c /Users/mac/Downloads/git/openglesLearn/openglesLearn/glad.c",
+  "file": "/Users/mac/Downloads/git/openglesLearn/openglesLearn/glad.c"
+},
+{
+  "directory": "/Users/mac/Downloads/git/openglesLearn/openglesLearn/build",
+  "command": "/usr/bin/clang++ -I../include -I/usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -std=gnu++11 -o CMakeFiles/HelloGL.dir/main.cpp.o -c /Users/mac/Downloads/git/openglesLearn/openglesLearn/main.cpp",
+  "file": "/Users/mac/Downloads/git/openglesLearn/openglesLearn/main.cpp"
+}
+]
