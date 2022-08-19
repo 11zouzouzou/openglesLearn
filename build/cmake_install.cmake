@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mac/Downloads/git/openglesLearn/openglesLearn
+# Install script for directory: /Users/zou/Downloads/github/openglesLearn
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/mac/Downloads/git/openglesLearn/openglesLearn/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/zou/Downloads/github/openglesLearn/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

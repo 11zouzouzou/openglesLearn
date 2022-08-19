@@ -10,8 +10,15 @@ set(GLFW_H /usr/local/include)
 include_directories(${GLAD_H} ${GLFW_H})
 
 # 添加目标链接
-set(GLFW_LINK /usr/local/lib/libglfw.3.dylib)
+#m1 cmake -DCMAKE_SYSTEM_PROCESSOR=arm64 -DCMAKE_OSX_ARCHITECTURES=arm64 
+#m1 set(GLFW_LINK /opt/homebrew/Cellar/glfw/3.3.8/lib/libglfw.3.3.dylib)
+#intel set(GLFW_LINK /usr/local/lib/libglfw.3.dylib)
+set(GLFW_LINK /opt/homebrew/Cellar/glfw/3.3.8/lib/libglfw.3.3.dylib)
+SET(CMAKE_XCODE_ATTRIBUTE_CLANG_ENABLE_MODULES "no")
 link_libraries(${GLFW_LINK})
+
+set(GLEW_LINK /opt/homebrew/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.dylib)
+link_libraries(${GLEW_LINK})
 
 # 执行编译命令
 set(SOURCES glad.c main.cpp)

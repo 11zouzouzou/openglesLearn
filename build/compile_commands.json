@@ -1,12 +1,12 @@
 [
 {
-  "directory": "/Users/mac/Downloads/git/openglesLearn/openglesLearn/build",
-  "command": "/usr/bin/clang -I../include -I/usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/HelloGL.dir/glad.c.o -c /Users/mac/Downloads/git/openglesLearn/openglesLearn/glad.c",
-  "file": "/Users/mac/Downloads/git/openglesLearn/openglesLearn/glad.c"
+  "directory": "/Users/zou/Downloads/github/openglesLearn/build",
+  "command": "/usr/bin/clang -I/Users/zou/Downloads/github/openglesLearn/include -I/usr/local/include -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o CMakeFiles/HelloGL.dir/glad.c.o -c /Users/zou/Downloads/github/openglesLearn/glad.c",
+  "file": "/Users/zou/Downloads/github/openglesLearn/glad.c"
 },
 {
-  "directory": "/Users/mac/Downloads/git/openglesLearn/openglesLearn/build",
-  "command": "/usr/bin/clang++ -I../include -I/usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -std=gnu++11 -o CMakeFiles/HelloGL.dir/main.cpp.o -c /Users/mac/Downloads/git/openglesLearn/openglesLearn/main.cpp",
-  "file": "/Users/mac/Downloads/git/openglesLearn/openglesLearn/main.cpp"
+  "directory": "/Users/zou/Downloads/github/openglesLearn/build",
+  "command": "/usr/bin/clang++ -I/Users/zou/Downloads/github/openglesLearn/include -I/usr/local/include -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11 -o CMakeFiles/HelloGL.dir/main.cpp.o -c /Users/zou/Downloads/github/openglesLearn/main.cpp",
+  "file": "/Users/zou/Downloads/github/openglesLearn/main.cpp"
 }
 ]
